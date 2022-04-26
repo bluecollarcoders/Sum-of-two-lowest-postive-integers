@@ -35,7 +35,7 @@ const sumTwoSmallestNumbers = (numbers) => {
 
 ## Solution 2
 
-```javascritpt
+```javascript
 const sumTwoSmallestNumbers = (numbers) => {  
   numbers.sort((a,b) => a -b)
   return numbers[0] + numbers[1]
