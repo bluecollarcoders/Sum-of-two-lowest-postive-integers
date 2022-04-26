@@ -11,6 +11,8 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 FUNDAMENTALSARRAYS
 Suggest kata description edits
 
+## Solution 1
+
 ```javascript
 
 const sumTwoSmallestNumbers = (numbers) => {
@@ -29,4 +31,13 @@ const sumTwoSmallestNumbers = (numbers) => {
  }
   return add;
  };
+```
+
+## Solution 2
+
+```javascritpt
+const sumTwoSmallestNumbers = (numbers) => {  
+  numbers.sort((a,b) => a -b)
+  return numbers[0] + numbers[1]
+}
 ```
